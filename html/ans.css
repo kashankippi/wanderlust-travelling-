@@ -1,0 +1,17 @@
+#main{color: blue;
+}
+*{text-align:center;
+}
+h1 h2 h3 h4 { font-family: Georgia, 'Times New Roman', Times, serif;}
+h1{font-style:goergia;
+}
+p{ color: white; background-color: cornflowerblue;  
+}
+div button{color: azure; background-color: purple;
+}
+button:hover{ background-color: yellow; color: blue;}
+h1::first-letter{ color: red;
+
+}
+p:nth-of-type(2n+1) {color: yellow;}
+#yes:checked + label{color: darkgreen;}

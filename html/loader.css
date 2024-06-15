@@ -1,0 +1,57 @@
+.d{
+    height: 500px;
+    width: 500px;
+ align-items: center;
+     display: flex; justify-content: space-evenly;
+    flex-wrap: wrap; 
+    background-color: blue;
+
+}
+ .wifi1{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+   margin-top:450px;
+   justify-content: space-around;
+
+ }
+ .wifi2{
+    height: 100px;
+    width: 50px;
+    background-color: black;
+    margin-top: 400px;
+    margin-left:15px ;
+    justify-content: space-around;
+ }
+ .wifi3{
+    height: 150px;
+    width: 50px;
+    background-color: black;
+    margin-top: 350px;
+    margin-left: 15px;
+    justify-content: space-around;
+ }
+ .wifi4{
+    height: 200px;
+    width: 50px;
+    background-color: black;
+    margin-top: 300px;
+    margin-left: 15px;
+    justify-content: space-around;
+ }
+ .wifi5{
+    height: 250px;
+    width: 50px;
+    background-color: black;
+    margin-top: 250px;
+    margin-left: 15px;
+    justify-content: space-around;
+ }
+ .wifi6{
+    height: 300px;
+    width: 50px;
+    background-color: black;
+    margin-top: 200px;
+    margin-left: 15px;
+    justify-content: space-around;
+ }

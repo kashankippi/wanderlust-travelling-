@@ -1,0 +1,171 @@
+.deep{
+    background-image: url(img.jpeg.jpg);
+    background-size: cover;
+}
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    text-align: start;
+    font-size: xx-large; 
+    display:inline ruby-text;
+    align-items: baseline;
+    padding-left: 10px;
+}
+header{
+    display:grid; margin: 0;
+padding: 0; display: inline-block;
+}
+
+
+.rana{
+    display: inline;
+    margin-left: 50vh; 
+    margin-top: 0vh;
+  }
+
+
+.name{
+    background-color:gray;
+    color: black;
+    box-shadow: 2px 2px 4px black;
+    font-size: large; 
+    border-radius: 50px;
+    margin: 20px;
+   
+
+}
+.number{
+    background-color: gray;
+    color: black;
+    box-shadow: 2px 2px 4px black;
+    font-size: large; 
+    border-radius: 50px;
+    margin: 20px;
+}
+
+
+.about{
+    background-color: gray;
+    color: black;
+    box-shadow: 2px 2px 4px black;
+    font-size: large; 
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.more{
+    background-color: gray;
+    color: black;
+    box-shadow: 2px 2px 4px black;
+    font-size: large; 
+    border-radius: 50px; margin: 20px;
+}
+.apk{
+     background-color:white;
+    color: black;
+    box-shadow: 2px 2px 4px black;
+    font-size: x-large; 
+    margin-left: 300px;
+    border-radius: 50px;
+    display: inline;
+}
+
+.name:hover{
+    background-color: black;
+    color: azure;
+    box-shadow: 2px 2px 4px goldenrod;
+    font-size: large;
+    border-radius: 50px;
+}
+
+.number:hover{
+    background-color: black;
+    color: azure;
+    box-shadow: 2px 2px 4px goldenrod;
+    font-size: large;
+    border-radius: 50px;
+}
+
+.about:hover{
+    background-color: black;
+    color: azure;
+    box-shadow: 2px 2px 4px goldenrod;
+    font-size: large;
+    border-radius: 50px;
+}
+
+.more:hover{
+    background-color: black;
+    color: azure;
+    box-shadow: 2px 2px 4px goldenrod;
+    font-size:large;
+    border-radius: 50px;
+}
+.apk:hover{ 
+     background-color:blue;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+    font-size: x-large; 
+    border-radius: 50px;
+
+}
+
+.slide1{
+    height: 360px;
+    width: 200px;
+    background-color: rgb(187, 191, 191);
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    position:absolute;
+    margin: -220px;
+    transition: all 0.2s linear;
+    display:grid;
+}
+
+.slide1 h1{
+    color: rgb(24, 23, 23);
+   
+}
+
+.us{
+    align-self: center;
+    padding-left: 55px;
+    padding-top: 0px;
+}
+.sld{
+    font-size:25px;
+    padding: 5px;
+   
+
+
+}
+
+.sld:hover{
+    border: 1.5px solid black;
+    background-color:whitesmoke;
+}
+#check:checked~.slide1{ 
+    margin: 0;
+   
+}
+.deep22{
+   
+    height: 620px;
+    width: 1510px;
+   background-image: url(flower.jpeg.jpg);
+   background-size: auto;
+   display: flex;
+
+}
+.list{
+    background-color: black;
+    color: azure;
+    height: 630px;
+    width: 270px;
+    align-items:flex-end;
+    margin-left: 1234px;
+    
+    
+}

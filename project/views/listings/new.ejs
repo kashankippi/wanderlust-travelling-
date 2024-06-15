@@ -1,0 +1,154 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wanderlust</title>
+</head> -->
+<% layout("/layouts/boilerplate") %>
+<body>
+    <div class="row mt-3">
+        <div class="col-8 offset-2" >
+            <br><br>
+    <h2>  Create your own form...... </h2>
+
+    <form method="post" action="/listings" novalidate
+    class="needs-validation" enctype="multipart/form-data">
+
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" name="listing[title]" 
+            placeholder="Add a catchy title" 
+            class="form-control"
+            required />
+            <div class="valid-feedback">Title looks good</div>
+
+        </div>
+    
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea 
+            name="listing[description]" 
+            class="form-control"
+              required 
+            ></textarea>
+            <div class="invalid-feedback">Please enter a short description</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="Image" class="form-label"> Upload Image</label>
+            <input type="file" 
+            name="listing[Image]" 
+            class="form-control"
+            required
+            >
+        </div>
+       
+<div class="row">
+
+    <div class="mb-3 col-md-4">
+        <label for="price" 
+        class="form-label">Price</label>
+        <input 
+        name="listing[price]"
+        class="form-control"
+         placeholder="1500"
+         required>
+         <div class="invalid-feedback">Please enter a valid amount</div>
+       </div>
+
+       <div class="mb-3 col-md-8"> 
+        <label for="country" class="form-label">Country</label>
+        <input type="text" 
+        name="listing[country]" 
+        class="form-control"
+        placeholder="India"
+        required>
+        <div class="invalid-feedback">Please enter a valid country name</div>
+       </div>
+        
+
+
+</div>
+   
+
+<div class="row">
+
+     <div class="mb-3 col-md-8">
+        <label for="location" class="form-label">Location</label>
+        <input type="text" 
+        name="listing[location]" 
+        class="form-control"
+        placeholder="panjab"
+        required>
+        <div class="invalid-feedback">Please enter the Location </div>
+     </div>
+
+
+<!-- 
+     <div class="mb-3 col-md-4"> 
+        <label for="category" class="form-label">Category</label>
+        <input type="text" 
+        name="listing[category]" 
+        class="form-control"
+        placeholder="hills,pools,desert,.etc,..."
+        required>
+        <div class="invalid-feedback">Please enter a valid category</div>
+       </div> -->
+        
+
+
+<!-- 
+      <div class="dropdown mb-3 col-md-4" name="listing[category]">
+        <label for="category" class="form-label" name="listing[category]"> Choose a Category</label>
+        <button class="btn btn-secondary dropdown-toggle form-control"  name="listing[category]" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+         <b> Choose a suitable Category ... </b>
+        </button>
+        <ul class="dropdown-menu">
+            <li class="form-control">desert</li>
+            <li class="form-control">Another action</li>
+            <li class="form-control">Something else here</li>
+          </ul>
+      </div> -->
+
+
+
+
+      <div class="dropdown mb-3 col-md-4" name="listing[category]">
+        <label for="category" class="form-label" name="listing[category]"> Choose a Category</label>
+           <select class="btn btn-secondary dropdown-toggle form-control"  name="listing[category]" id="listing.category" onchange="getSelectValue();">
+            <option value="Mountaines">Mountaines</option>
+            <option value="Arctic">Arctic</option>
+            <option value="Farm">Farm</option>
+            <option value="Pool">Pool</option>
+            <option value="Desert">Desert</option>
+            <option value="Iconic-cities">Iconic-cities</option>
+            <option value="Camping"> Camping</option>
+            <option value="Rooms">Rooms</option>
+            <option value="Castels">Castels</option>
+            
+
+        
+        </select>
+
+        <script>
+            function getSelectValue(){
+                let selectedValue = document.getElementById("listing.category").value;
+                console.log(selectedValue);
+                 Listing[category].push(selectedValue);
+            }
+        </script>
+      </div>
+
+
+
+     </div>
+        
+        <button class="btn btn-dark add-btn mt-3" >ADD</button>
+        <br><br>
+    </form>
+</div>
+</div>
+</body>
+</html>
+

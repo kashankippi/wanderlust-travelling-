@@ -1,0 +1,89 @@
+h1{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+}
+.free{
+    border: 2px solid rgb(37, 35, 35);
+   height: 230px;
+   
+   flex: 1 1 200px;
+   margin: 20px;
+   border-radius: 5px;
+   width: 250px;
+}
+
+.pro{
+    border: 2px solid rgb(37, 35, 35);
+    height: 230px;
+   
+   flex: 1 1 200px;
+   margin: 20px;
+   border-radius: 5px;
+   width: 250px;
+}
+
+
+.enterprise{
+    border: 2px solid rgb(37, 35, 35);
+    height: 230px;
+    
+    flex: 1 1 200px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 250px;
+ }
+
+.head{
+    background-color: whitesmoke;
+    border-bottom: 1px solid rgb(37, 35, 35);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.son{
+    display: grid;
+}
+
+.deep{
+    align-items: center;
+    border:2px solid blue;
+    color:blue;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 65px;
+}
+button{
+    background-color: blue;
+    color:white;
+    border: 2px solid blue;
+    border-radius: 5px; 
+    align-content: center;align-self: center;
+    margin-left: 85px;
+}
+ .deep:hover{
+    color: white;
+    background-color: blue;
+ }
+button:hover{
+    background-color: white;
+    color: blue;
+ }
+   ul{
+    list-style: none;
+    justify-content: space-between;
+   }
+   .container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    height: 100vh;
+    padding-top: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   }
+  
